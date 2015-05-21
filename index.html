@@ -1,20 +1,20 @@
 ---
 layout: workshop
 root: .
-venue: FIXME (brief name of host site)
-address: FIXME (street address of home location)
-country: FIXME (country (hyphenated if need be, like 'United-Kingdom')
-language: FIXME (language code like 'en' or 'fr')
-latlng: (fractional latitude and longitude like 41.7901128,-87.6007318)
-humandate: FIXME (use the format 'Feb 17-18, 2020' (without the quotes)
-humantime: FIXME (use the format '9:00 am - 4:30 pm' (without the quotes)
-startdate: FIXME (use YYYY-MM-DD format like 2015-01-01)
-enddate: FIXME (use YYYY-MM-DD format like 2015-01-02)
-instructor: (list of names like ["Kay McNulty", "Betty Jennings", "Betty Snyder"])
-helper: (list of names like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"])
-contact: FIXME (contact email address for workshop organizer)
-etherpad: # FIXME (insert the URL for your Etherpad if you're using one)
-eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 1234567890AB key for Eventbrite registration)
+venue: Coalition: Impact
+address: 405 W Superior, Chicago, IL
+country: United States
+language: en
+latlng: 41.7901128,-87.6007318
+humandate: May 27th-29th, 2015
+humantime: 9:00 am - 5:30 pm
+startdate: 2015-05-27
+enddate: 2015-06-02
+instructor: ["Matt Gee", "Rayid Ghani"]
+helper:["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+contact: mattgee@uchicago.edu
+etherpad: # 
+eventbrite: # 
 ---
 <!--
   HEADER
@@ -51,19 +51,21 @@ eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 12
   the pitch.
 -->
 <p>
-  <a href="{{site.swc_site}}">Software Carpentry</a>'s mission
-  is to help scientists and engineers get more research done in less
+  <a href="{{site.swc_site}}">The goal of the DSSG Bootcamp
+  is to help data scientist fellows get more done in less
   time and with less pain by teaching them basic lab skills for
-  scientific computing.  This hands-on workshop will cover basic
+  data mangement, analysis, and visualization.  This hands-on workshop will cover basic
   concepts and tools, including program design, version control, data
-  management, and task automation.  Participants will be encouraged to
-  help one another and to apply what they have learned to their own
-  research problems.
+  management, data analysis, and task automation.  Participants are encouraged to
+  help one another throughout the training and to apply what they have learned to 
+  their summer projects. Much of the material in this workshop we have modified
+  from the fantastic course materials developed bySoftware Carpentry, Data Carpentry
+  and the Coalition for Open Data Education.
 </p>
 <p align="center">
   <em>
-    For more information on what we teach and why,
-    please see our paper
+    For more information on Software Carpenty,
+    please see their fantastic paper
     "<a href="http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745">Best Practices for Scientific Computing</a>".
   </em>
 </p>
@@ -76,7 +78,7 @@ eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 12
 -->
 <p>
   <strong>Who:</strong>
-  The course is aimed at graduate students and other researchers.
+  The course is aimed at data science for social good fellows, mentors, and other affiliate researchers.
 </p>
 
 <!--
@@ -107,7 +109,7 @@ eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 12
   <strong>Requirements:</strong> Participants must bring a laptop with
   a few specific software packages installed (listed
   <a href="#setup">below</a>). They are also required to abide by
-  Software Carpentry's
+  DSSG's
   <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a>.
 </p>
 
@@ -142,10 +144,14 @@ eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 12
 
 <div class="row">
   <div class="col-md-6">
-    <h3>Day 1</h3>
+    <h3>Day 1 - Wednesday, May 27th</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Automating tasks with the Unix shell</td> </tr>
-      <tr> <td>10:30</td> <td>Coffee</td> </tr>
+      <tr> <td>8:00</td> <td>Computer Setup Help (optional)</td> </tr>
+      <tr> <td>9:00</td> <td>Coffee and Donuts</td> </tr>
+      <tr> <td>09:30</td>  <td>Automating tasks with the Unix shell</td> </tr>
+      <tr> <td>10:00</td> <td>Coffee and Donuts</td> </tr>
+      <tr> <td>10:30</td> <td>Coffee and Donuts</td> </tr>
+      <tr> <td>11:00</td> <td>Coffee and Donuts</td> </tr>
       <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
       <tr> <td>13:00</td>  <td>Building programs with Python</td> </tr>
       <tr> <td>14:30</td>  <td>Coffee</td> </tr>
@@ -153,7 +159,29 @@ eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 12
     </table>
   </div>
   <div class="col-md-6">
-    <h3>Day 2</h3>
+    <h3>Day 2 - Thursday, May 28th</h3>
+    <table class="table table-striped">
+      <tr> <td>09:00</td>  <td>Version control with Git</td> </tr>
+      <tr> <td>10:30</td>  <td>Coffee</td> </tr>
+      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
+      <tr> <td>13:00</td>  <td>Managing data with SQL</td> </tr>
+      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
+      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+    </table>
+  </div>
+  <div class="col-md-6">
+    <h3>Day 3 - Friday, May 29th</h3>
+    <table class="table table-striped">
+      <tr> <td>09:00</td>  <td>Version control with Git</td> </tr>
+      <tr> <td>10:30</td>  <td>Coffee</td> </tr>
+      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
+      <tr> <td>13:00</td>  <td>Managing data with SQL</td> </tr>
+      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
+      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+    </table>
+  </div>
+  <div class="col-md-6">
+    <h3>Day 4 - Monday, June 1st</h3>
     <table class="table table-striped">
       <tr> <td>09:00</td>  <td>Version control with Git</td> </tr>
       <tr> <td>10:30</td>  <td>Coffee</td> </tr>
